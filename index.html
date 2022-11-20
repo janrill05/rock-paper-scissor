@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">ROCK PAPER SCISSORS</h1>
+    </header>
+    <main class="main">
+        <div class="scoreboard">
+            <h2 class="score-info" id="scoreInfo">Choose your weapon</h2>
+            <h3 class="score-message" id="scoreMessage">
+                First to score 5 points wins the game.
+            </h3>
+            <div class="score-container">
+                <div class="score-box">
+                    <div class="sign">
+                        <img class="logo" src="images/questionmark.gif">
+                    </div>
+                    <p class="score" id="playerScore">Player :0</p>
+                </div>
+                <div class="score-box">
+                    <div class="sign">
+                        <img class="logo" src="images/questionmark.gif">
+                    </div>
+                    <p class="score" id="computerScore">Computer :0</p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex">
+            <div class="buttons">
+                <button class="btn btn-square" data-image="rock">
+                    <img src="images/rock.png" alt="Rock" class="image" />
+                </button>
+                <div class="btn-text">Rock</div>
+            </div>
+            <div class="buttons">
+                <button class="btn btn-square" data-image="paper">
+                    <img src="images/paper.png" alt="Paper" class="image" />
+                </button>
+                <div class="btn-text">Paper</div>
+            </div>
+            <div class="buttons">
+                <button class="btn btn-square" data-image="scissors">
+                    <img src="images/scissors.png" alt="Scissors" class="image" />
+                </button>
+                <div class="btn-text">Scissors</div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
